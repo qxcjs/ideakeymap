@@ -1,0 +1,25 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="alt j" />
+  </action>
+  <action id="CopyElement" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
+  <action id="Move" />
+  <action id="NextDiff" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
+  <action id="SelectNextOccurrence" />
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="f7" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f6" />
+  </action>
+  <action id="UML.ApplyCurrentLayout" />
+</keymap>
