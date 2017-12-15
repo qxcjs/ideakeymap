@@ -16,6 +16,9 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="alt k" />
   </action>
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="alt b" />
   </action>
