@@ -9,6 +9,10 @@
   <action id="EditorCodeBlockStart">
     <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
+  <action id="EditorContextInfo" />
+  <action id="EditorScrollToCenter">
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
   <action id="ExportToTextFile" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup">
@@ -23,6 +27,12 @@
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="alt b" />
   </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="GotoSuperMethod">
+    <keyboard-shortcut first-keystroke="alt u" />
+  </action>
   <action id="Move" />
   <action id="NextDiff" />
   <action id="NextTab">
@@ -33,6 +43,9 @@
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt h" />
+  </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="alt q" />
   </action>
   <action id="RecentFiles">
     <keyboard-shortcut first-keystroke="alt e" />
