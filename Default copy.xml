@@ -2,7 +2,9 @@
   <action id="Back">
     <keyboard-shortcut first-keystroke="alt j" />
   </action>
+  <action id="BaseOnThisFunction" />
   <action id="CopyElement" />
+  <action id="Diff.PrevChange" />
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="alt close_bracket" />
   </action>
@@ -10,6 +12,9 @@
     <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
   <action id="EditorContextInfo" />
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
   <action id="EditorScrollToCenter">
     <keyboard-shortcut first-keystroke="alt m" />
   </action>
@@ -17,6 +22,10 @@
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="alt o" />
+  </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="alt f3" />
+    <keyboard-shortcut first-keystroke="alt f" />
   </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="alt k" />
@@ -32,6 +41,9 @@
   </action>
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="alt u" />
+  </action>
+  <action id="ImplementMethods">
+    <keyboard-shortcut first-keystroke="alt i" />
   </action>
   <action id="Move" />
   <action id="NextDiff" />
@@ -66,5 +78,8 @@
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f6" />
   </action>
+  <action id="TypeHierarchy" />
+  <action id="TypeHierarchy.BaseOnThisType" />
+  <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UML.ApplyCurrentLayout" />
 </keymap>
